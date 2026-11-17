@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="26" role="img" aria-label="Data on Hugging Face">
+  <title>Data on Hugging Face</title>
+  <defs><clipPath id="pill"><rect width="148" height="26" rx="5"/></clipPath></defs>
+  <g clip-path="url(#pill)"><rect width="50" height="26" fill="#24292f"/><rect x="50" width="98" height="26" fill="#008C8B"/></g>
+  <g fill="#fff" font-family="Arial,Helvetica,sans-serif" text-anchor="middle"><text x="25" y="17" font-size="10" font-weight="700" letter-spacing=".6">DATA</text><text x="99" y="17" font-size="11" font-weight="600">Hugging Face</text></g>
+</svg>

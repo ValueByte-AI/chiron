@@ -1,0 +1,15 @@
+chiron-data/
+models/*
+!models/.gitkeep
+results/
+outputs/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+*.egg-info/
+build/
+dist/

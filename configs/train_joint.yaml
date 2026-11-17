@@ -1,0 +1,53 @@
+# Recipe for joint_train.jsonl; dataset repetition is already complete.
+# Supply the base model, output directory and resume checkpoint via train_joint.py.
+trust_remote_code: true
+flash_attn: fa2
+enable_liger_kernel: true
+disable_gradient_checkpointing: false
+use_reentrant_gc: false
+
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 32
+lora_alpha: 64
+lora_dropout: 0.0
+lora_target: all
+use_chiron_measurement_loss: true
+chiron_measurement_lambda: 8.0
+chiron_measurement_num_layers: 1
+chiron_num_constructs: 109
+chiron_person_mean_ema_beta: 0.01
+deepspeed: configs/ds_z2.json
+
+template: qwen3_6
+cutoff_len: 8192
+preprocessing_num_workers: 1
+dataloader_num_workers: 4
+overwrite_cache: false
+train_on_prompt: false
+mask_history: false
+enable_thinking: false
+packing: false
+neat_packing: false
+
+logging_steps: 5
+save_strategy: steps
+save_steps: 1000
+save_total_limit: null
+save_only_model: false
+plot_loss: true
+overwrite_output_dir: false
+report_to: none
+
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 3
+learning_rate: 0.0001
+num_train_epochs: 2.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+gradient_checkpointing: true
+ddp_timeout: 180000000
+seed: 42
+data_seed: 42

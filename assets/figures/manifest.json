@@ -1,0 +1,41 @@
+{
+  "source": "Chiron manuscript figures",
+  "figures": [
+    {
+      "name": "headline-results",
+      "manuscript_source": "figs/chiron_headline_results.pdf",
+      "source_sha256": "ca89b22ad08b53fed40039367dad86812133c67c269b78d13f10fd541b887524",
+      "renderer": "pdftoppm",
+      "dpi": 300,
+      "crop_bottom_mm": 17,
+      "outputs": {
+        "headline-results.pdf": "ca89b22ad08b53fed40039367dad86812133c67c269b78d13f10fd541b887524",
+        "headline-results.png": "8e274fd17b054696e864d43ed9b744c7560b6e1649c1f8ae5608099ebb786a89"
+      }
+    },
+    {
+      "name": "architecture",
+      "manuscript_source": "figs/chiron_fig1_joint.pdf",
+      "source_sha256": "5b702f182fca212474dd838b4f4a28a26d96c986dc6140a8bf7f47341f78067e",
+      "renderer": "pdftoppm",
+      "dpi": 180,
+      "crop_bottom_mm": 0,
+      "outputs": {
+        "architecture.pdf": "5b702f182fca212474dd838b4f4a28a26d96c986dc6140a8bf7f47341f78067e",
+        "architecture.png": "ab4377d07534614ddcf7a29d5079ca1b8c02ec05c6faa85a6be0c7d98d502819"
+      }
+    },
+    {
+      "name": "controlled-example",
+      "manuscript_source": "figs/prediction_case_study.pdf",
+      "source_sha256": "27bb0a3177c698fbe1268c8185fee3ea22420630d65d478522ffc54d1a15e1bf",
+      "renderer": "pdftoppm",
+      "dpi": 300,
+      "crop_bottom_mm": 0,
+      "outputs": {
+        "controlled-example.pdf": "27bb0a3177c698fbe1268c8185fee3ea22420630d65d478522ffc54d1a15e1bf",
+        "controlled-example.png": "f0b49bdadff7fa07e17d72bab65e7a023e4a55d3f9a36223ee1c9956ce8057aa"
+      }
+    }
+  ]
+}

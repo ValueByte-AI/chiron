@@ -1,0 +1,16 @@
+{
+  "chiron_joint": {
+    "file_name": "../chiron-data/data/sft/joint_train.jsonl",
+    "formatting": "chiron_joint",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }
+}
