@@ -5,6 +5,7 @@
 <p><strong>Chiron</strong> · Psychological measurement, behavioural prediction, and population simulation</p>
 
 <p>
+<a href="https://www.alphaxiv.org/abs/2611.24830"><img src="https://img.shields.io/badge/alphaXiv-2611.24830-9A2036?logo=alphaXiv&logoColor=white" height="26" alt="alphaXiv"></a>
 <a href="https://huggingface.co/chiron-group/chiron"><img src="assets/badges/model.svg" height="26" alt="Hugging Face model"></a>
 <a href="https://huggingface.co/datasets/chiron-group/chiron-data"><img src="assets/badges/data.svg" height="26" alt="Hugging Face data"></a>
 <a href="pyproject.toml"><img src="assets/badges/python.svg" height="26" alt="Python 3.12"></a>
@@ -257,10 +258,13 @@ After changing dependencies in `pyproject.toml`, run `uv lock` and commit both f
 If you use Chiron in your research, please cite:
 
 ```bibtex
-@misc{ye2026chiron,
-  title  = {A Foundation Model to Measure and Predict Human Behaviour},
-  author = {Ye, Haoran and Huo, Tianrui and Li, Hangzhen and Zhang, Xin and Song, Guojie},
-  year   = {2026},
-  url    = {https://github.com/ValueByte-AI/chiron}
+@misc{ye2026foundationmodelmeasurepredict,
+      title={A Foundation Model to Measure and Predict Human Behaviour},
+      author={Haoran Ye and Tianrui Huo and Hangzhen Li and Xin Zhang and Guojie Song},
+      year={2026},
+      eprint={2611.24830},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2611.24830},
 }
 ```
